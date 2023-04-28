@@ -10,10 +10,15 @@
 </script>
 
 <div class="layout">
+	<!-- Header -->
 	<Header />
+
 	<main>
+		<!-- Black hole for other content -->
 		<slot />
 	</main>
+
+	<!-- Footer -->
 	<Footer />
 </div>
 
@@ -22,7 +27,7 @@
 		height: 100%;
 		max-inline-size: 1440px;
 		display: grid;
-		grid-template-columns: auto 1fr auto;
+		grid-template-rows: auto 1fr auto;
 		margin-inline: auto;
 		padding-inline: var(--size-7);
 	}
