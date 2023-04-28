@@ -1,14 +1,15 @@
 ---
-title: Second Post
-description: First post.
-date: '29.04.2023'
-categories: -sveltekit
-  -svelte
+title: Second
+description: Second post.
+date: '2023-4-16'
+categories:
+  - sveltekit
+  - svelte
 published: true
 ---
 
 ## Svelte
 
-Media inside the **static** folder is served from "/".
+Media inside the **static** folder is served from `/`.
 
 ![Svelte](favicon.png)
