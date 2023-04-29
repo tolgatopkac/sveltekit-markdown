@@ -7,6 +7,8 @@
 	import 'open-props/buttons'
 
 	import '../app.css'
+	import PageTransition from './transition.svelte'
+	export let data
 </script>
 
 <div class="layout">
@@ -14,8 +16,9 @@
 	<Header />
 
 	<main>
-		<!-- Black hole for other content -->
-		<slot />
+		<PageTransition url={data.url}>
+			<slot />
+		</PageTransition>
 	</main>
 
 	<!-- Footer -->
