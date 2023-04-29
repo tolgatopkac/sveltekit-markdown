@@ -26,6 +26,11 @@
     display:grid;
     gap:var(--size-7);
   }
+  a:visited{
+   color:unset;
+   underline:unset;
+  }
+
 
   .post{
     max-inline-size: var(--size-content-3)
